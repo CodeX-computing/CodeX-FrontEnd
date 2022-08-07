@@ -1,4 +1,4 @@
-import react from 'react';
+import Link from 'next/link'
 import Styles from '../styles/Navbar.module.css';
 
 export default function Navbar() {
@@ -7,13 +7,19 @@ export default function Navbar() {
       <img src="/logo.png" alt="CodeX computing" width='200px' />
       <ul className={Styles.navbar_items}>
         <li className={Styles.navbar_item}>
-          <a className={Styles.navbar_link} href="#">Home</a>
+          <Link href="/">
+            <a className={Styles.navbar_link}>Home</a>
+          </Link>
         </li>
         <li className={Styles.navbar_item}>
-          <a className={Styles.navbar_link} href="#">About</a>
+          <Link href="/about">
+            <a className={Styles.navbar_link}>About</a>
+          </Link>
         </li>
         <li className={Styles.navbar_item}>
-          <a className={Styles.navbar_link} href="#">Contact</a>
+          <Link href="/services">
+            <a className={Styles.navbar_link}>Services</a>
+          </Link>
         </li>
       </ul>
     </nav>
