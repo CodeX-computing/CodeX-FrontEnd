@@ -1,20 +1,47 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "CodeX Computing ",
+  "version": "1.0.0",
+  "description": "CodeX Computing",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css": "tailwind build src/tailwindcss.css -o assets/css/tailwindcss.css"
   },
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "next": "12.2.4",
+    "postcss": "^8.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^2.0.2",
+    "tiny-slider": "^2.9.4"
   },
   "devDependencies": {
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4"
-  }
+  },
+  "keywords": [
+    "codex",
+    "computing",
+    "codex computing",
+    "courr",
+    "ismail",
+    "startup",
+    "front-end",
+    "web",
+    "web development",
+    "web design",
+    "web design and development",
+    "web design and development company",
+    "web design and development company in morocco",
+    "back-end",
+    "back-end development",
+    "back-end development company",
+    "back-end development company in morocco"
+  ],
+  "author": "ismail courr",
+  "license": "MIT"
 }
