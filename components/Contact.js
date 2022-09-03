@@ -28,7 +28,6 @@ const Contact = () => {
               </div>{' '}
               {/*<!-- section title -->*/}
               <div className="contact_form">
-                <h5 className="rounded-md text-center underline bg-red-400"></h5>
                 <form id="contact-form" onSubmit={handleSubmit} method="POST">
                   <div className="row">
                     <div className="w-full md:w-1/2">
@@ -58,7 +57,7 @@ const Contact = () => {
                         {/*<!-- single form -->*/}
                       </div>
                     </div>
-                    <p className="form-message mx-3"></p>
+                    <p className="form-message mx-3 rounded-md text-center underline bg-red-400"></p>
                     <div className="w-full">
                       <div className="mx-3">
                         <div className="single_form mt-8">
