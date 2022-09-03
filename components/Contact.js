@@ -28,7 +28,7 @@ const Contact = () => {
               </div>{' '}
               {/*<!-- section title -->*/}
               <div className="contact_form">
-                <h5 className="rounded-md text-center underline bg-red-400">ddd</h5>
+                <h5 className="rounded-md text-center underline bg-red-400"></h5>
                 <form id="contact-form" onSubmit={handleSubmit} method="POST">
                   <div className="row">
                     <div className="w-full md:w-1/2">
