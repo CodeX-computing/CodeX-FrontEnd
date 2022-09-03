@@ -1,6 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm('mjvzgkyo');
+  if (state.succeeded) {
+    return <h1>Thanks for contacting us!</h1>;
+  }
+
   return (
     <section id="contact" className="contact_area relative pt-18 pb-120">
       <div className="contact_image flex items-center justify-end">
@@ -20,12 +26,13 @@ const Contact = () => {
               </div>{' '}
               {/*<!-- section title -->*/}
               <div className="contact_form">
-                <form id="contact-form" action="/contact.php" method="POST">
+                <form id="contact-form" onSubmit={handleSubmit} method="POST">
                   <div className="row">
                     <div className="w-full md:w-1/2">
                       <div className="mx-3">
                         <div className="single_form mt-8">
                           <input name="name" id="name" type="text" placeholder="Name" className="w-full rounded-md py-4 px-6 border border-solid border-body-color" required />
+                          <ValidationError prefix="Name" field="name" errors={state.errors} />
                         </div>{' '}
                         {/*<!-- single form -->*/}
                       </div>
@@ -34,6 +41,7 @@ const Contact = () => {
                       <div className="mx-3">
                         <div className="single_form mt-8">
                           <input name="email" id="email" type="email" placeholder="Email" className="w-full rounded-md py-4 px-6 border border-solid border-body-color" required />
+                          <ValidationError prefix="Email" field="email" errors={state.errors} />
                         </div>{' '}
                         {/*<!-- single form -->*/}
                       </div>
@@ -42,6 +50,7 @@ const Contact = () => {
                       <div className="mx-3">
                         <div className="single_form mt-8">
                           <textarea name="message" id="message" placeholder="Message" rows="5" className="w-full rounded-md py-4 px-6 border border-solid border-body-color resize-none" required></textarea>
+                          <ValidationError prefix="Message" field="message" errors={state.errors} />
                         </div>{' '}
                         {/*<!-- single form -->*/}
                       </div>
@@ -71,6 +80,6 @@ const Contact = () => {
       {/*<!-- container -->*/}
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;
