@@ -4,7 +4,9 @@ import { useForm, ValidationError } from '@formspree/react';
 const Contact = () => {
   const [state, handleSubmit] = useForm('mjvzgkyo');
   if (state.succeeded) {
-    return <h1>Thanks for contacting us!</h1>;
+    const form = document.querySelector('.form-message');
+    form.innerText = 'Thanks for your message, we will get back to you soon!'
+    // return <h1>Thanks for contacting us!</h1>;
   }
 
   return (
@@ -26,6 +28,7 @@ const Contact = () => {
               </div>{' '}
               {/*<!-- section title -->*/}
               <div className="contact_form">
+                <h5 className="rounded-md text-center underline bg-red-400">ddd</h5>
                 <form id="contact-form" onSubmit={handleSubmit} method="POST">
                   <div className="row">
                     <div className="w-full md:w-1/2">
