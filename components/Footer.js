@@ -78,7 +78,6 @@ const Footer = () => {
               </div>{' '}
               {/*<!-- footer link wrapper -->*/}
             </div>
-
           </div>{' '}
           {/*<!-- row -->*/}
         </div>{' '}
@@ -87,22 +86,17 @@ const Footer = () => {
           <div className="z-10 footer_social pt-4 mx-3 text-center">
             <ul className="social flex justify-center sm:justify-start">
               <li className="mr-3">
-                <a href="https://facebook.com/uideckHQ">
-                  <i className="lni lni-facebook-filled"></i>
-                </a>
-              </li>
-              <li className="mr-3">
-                <a href="https://twitter.com/uideckHQ">
+                <a href="https://twitter.com/Codex_Computing">
                   <i className="lni lni-twitter-filled"></i>
                 </a>
               </li>
               <li className="mr-3">
-                <a href="https://instagram.com/uideckHQ">
+                <a href="https://instagram.com/ismailcourr">
                   <i className="lni lni-instagram-original"></i>
                 </a>
               </li>
               <li className="mr-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/codex-computing">
                   <i className="lni lni-linkedin-original"></i>
                 </a>
               </li>
