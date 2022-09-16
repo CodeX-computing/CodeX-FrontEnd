@@ -76,18 +76,21 @@ const Header = () => {
             <img src="/images/shape/shape-2.svg" alt="shape" />
           </div>
           {/*<!-- hero shape -->*/}
-          <div className="container">
+          <div className="container header_cont">
             <div className="row">
               <div className="w-full lg:w-1/2">
                 <div className="header_hero_content pt-150 lg:pt-0">
-                  <h2 className="hero_title text-2xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold">
+                  <h2 className="hero_title text-2xl sm:text-4xl lg:text-4xl xl:text-5xl font-extrabold">
                     Let's Build your <br />
                     <span id="changing-text" className="text-theme-color"></span>
                   </h2>
-                  <p className="mt-8 lg:mr-8">CodeX Computing is a company that provides end-to-end software solutions to small and independent businesses, based in Morocco. These solutions are designed to help our clients succeed in their respective markets. CodeX Computing has a team of professionals with years of experience in the field, who work together to provide a wide range of services, from Front end development to Full stack apps.</p>
+                  <p className="mt-8 lg:mr-8">
+                    At CodeX Computing we provide end-to-end software solutions, That are designed to help our clients succeed in their respective markets.
+                    <br /> CodeX Computing has a team of professionals with years of experience in the field, who work together to provide a wide range of services, from Front end development to Full stack apps.
+                  </p>
                   <div className="hero_btn mt-10">
                     <a className="main-btn" href="mailto:contact@codexcomputing.tk">
-                      Get Started
+                      Let's talk
                     </a>
                   </div>
                 </div>{' '}

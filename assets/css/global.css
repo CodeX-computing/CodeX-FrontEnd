@@ -10,4 +10,9 @@
   .header_hero {
     height: 120vh;
   }
+
+  h2.hero_title {
+    margin-top: 30px;
+    font-size: 2em;
+  }
 }
