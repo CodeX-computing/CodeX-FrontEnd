@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className={Styles.navbar}>
       <img src="/images/logo.png" alt="CodeX computing" width="200px" />
       <ul className="flex flex-col">
-        <li className={Styles.home_link}>
+        <li>
           <a className="hero_title text-xl font-bold" href="#">
             Home
           </a>
