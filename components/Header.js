@@ -81,7 +81,7 @@ const Header = () => {
               <div className="w-full lg:w-1/2">
                 <div className="header_hero_content pt-150 lg:pt-0">
                   <h2 className="hero_title text-2xl sm:text-4xl lg:text-4xl xl:text-5xl font-extrabold">
-                    Let's Build your <br />
+                    Let&apos;s Build your <br />
                     <span id="changing-text" className="text-theme-color"></span>
                   </h2>
                   <p className="mt-8 lg:mr-8">
@@ -90,7 +90,7 @@ const Header = () => {
                   </p>
                   <div className="hero_btn mt-10">
                     <a className="main-btn" href="mailto:contact@codexcomputing.tk">
-                      Let's talk
+                      Let&apos;s talk
                     </a>
                   </div>
                 </div>{' '}
