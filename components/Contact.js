@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="container">
         <div className="row justify-end">
           <div className="w-full lg:w-1/2">
-            <div className="contact_wrapper mt-11 ml-34">
+            <div className="contact_wrapper mt-11">
               <div className="section_title pb-4">
                 <h5 className="sub_title">Contact</h5>
                 <h4 className="main_title">Get In Touch</h4>
