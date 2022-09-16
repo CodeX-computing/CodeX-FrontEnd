@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer id="footer" className="footer_area bg-black relative z-10">
-      <div className="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div className="back shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
         <img src="/images/footer-shape-left.png" alt="" />
       </div>
-      <div className="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div className="back shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
         <img src="/images/footer-shape-right.png" alt="" />
       </div>
       <div className="container">
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>{' '}
         {/*<!-- footer widget -->*/}
         <div className="footer_copyright pt-3 pb-6 border-t-2 border-solid border-white border-opacity-10 sm:flex justify-between">
-          <div className="z-10 footer_social pt-4 mx-3 text-center">
+          <div className="footer_social pt-4 mx-3 text-center">
             <ul className="social flex justify-center sm:justify-start">
               <li className="mr-3">
                 <a href="https://twitter.com/Codex_Computing">

@@ -63,7 +63,7 @@ const Header = () => {
                   </h2>
                   <p className="mt-8 lg:mr-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
                   <div className="hero_btn mt-10">
-                    <a className="main-btn" href="#0">
+                    <a className="main-btn" href="emailto:contact@codexcomputing.tk">
                       Get Started
                     </a>
                   </div>

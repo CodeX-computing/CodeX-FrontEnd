@@ -37,8 +37,8 @@ const Home = () => {
       <Navbar />
       <Header />
       <Preloader />
-      <About />
-      <WhyUs />
+      {/* <About /> */}
+      {/* <WhyUs /> */}
       <Services />
       {/* <Work /> */}
       {/* <Pracing /> */}

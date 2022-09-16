@@ -13,14 +13,14 @@ const Contact = () => {
     <section id="contact" className="contact_area relative pt-18 pb-120">
       <div className="contact_image flex items-center justify-end">
         <div className="image lg:pr-13">
-          <img src="/images/contact.svg" alt="about" />
+          <img className="w-full" src="/images/contact.svg" alt="about" />
         </div>
       </div>{' '}
       {/*<!-- about image -->*/}
       <div className="container">
         <div className="row justify-end">
           <div className="w-full lg:w-1/2">
-            <div className="contact_wrapper mt-11">
+            <div className="contact_wrapper mt-11 ml-34">
               <div className="section_title pb-4">
                 <h5 className="sub_title">Contact</h5>
                 <h4 className="main_title">Get In Touch</h4>
