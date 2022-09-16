@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer id="footer" className="footer_area bg-black relative z-10">
-      <div className="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div className="back shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
         <img src="/images/footer-shape-left.png" alt="" />
       </div>
-      <div className="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div className="back shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
         <img src="/images/footer-shape-right.png" alt="" />
       </div>
       <div className="container">
@@ -20,7 +20,13 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="footer_content mt-8">
-                  <p className="text-white">Lorem ipsum dolor sitco nsetetu nonumy eirmod tempor invidunt ut labore et dolore magna uyam erat, sed diam.</p>
+                  <p className="text-white">
+                    CodeX Computing is a company that provides end-to-end software solutions to small and independent businesses, based in Morocco. <br />
+                    <br />
+                    These solutions are designed to help our clients succeed in their respective markets.
+                    <br />
+                    CodeX Computing has a team of professionals with years of experience in the field, who work together to provide a wide range of services for both the public and private sectors.
+                  </p>
                 </div>
               </div>{' '}
               {/*<!-- footer about -->*/}
@@ -32,7 +38,7 @@ const Footer = () => {
                   <ul className="link pt-4">
                     <li>
                       <a href="#" className="text-white mt-4 hover:text-theme-color">
-                        Company
+                        Services
                       </a>
                     </li>
                     <li>
@@ -72,18 +78,6 @@ const Footer = () => {
               </div>{' '}
               {/*<!-- footer link wrapper -->*/}
             </div>
-            <div className="w-full md:w-2/3 lg:w-4/12">
-              <div className="footer_subscribe mt-13 mx-3">
-                <h2 className="footer_title text-xl font-semibold text-white">Newsletter</h2>
-                <div className="subscribe_form text-right mt-9 relative">
-                  <form action="#">
-                    <input type="text" placeholder="Enter email" className="w-full py-5 px-6 bg-white text-black rounded-full border-none" />
-                    <button className="main-btn subscribe-btn">Subscribe</button>
-                  </form>
-                </div>
-              </div>{' '}
-              {/*<!-- footer subscribe -->*/}
-            </div>
           </div>{' '}
           {/*<!-- row -->*/}
         </div>{' '}
@@ -92,22 +86,17 @@ const Footer = () => {
           <div className="footer_social pt-4 mx-3 text-center">
             <ul className="social flex justify-center sm:justify-start">
               <li className="mr-3">
-                <a href="https://facebook.com/uideckHQ">
-                  <i className="lni lni-facebook-filled"></i>
-                </a>
-              </li>
-              <li className="mr-3">
-                <a href="https://twitter.com/uideckHQ">
+                <a href="https://twitter.com/Codex_Computing">
                   <i className="lni lni-twitter-filled"></i>
                 </a>
               </li>
               <li className="mr-3">
-                <a href="https://instagram.com/uideckHQ">
+                <a href="https://instagram.com/ismailcourr">
                   <i className="lni lni-instagram-original"></i>
                 </a>
               </li>
               <li className="mr-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/codex-computing">
                   <i className="lni lni-linkedin-original"></i>
                 </a>
               </li>
@@ -116,13 +105,8 @@ const Footer = () => {
           {/*<!-- footer social -->*/}
           <div className="footer_copyright_content pt-4 text-center">
             <p className="text-white">
-              Designed and Developed by{' '}
-              <a href="https://uideck.com" rel="nofollow" className="text-white hover:text-theme-color">
-                UIdeck
-              </a>{' '}
-              and{' '}
-              <a href="https://tailwindtemplates.co" rel="nofollow" className="text-white hover:text-theme-color">
-                Tailwind Templates
+              <a href="https://codexcomputing.tk" target="_blank" rel="noreferrer">
+                CodeX Computing &copy; 2021. All Rights Reserved.
               </a>
             </p>
           </div>{' '}
