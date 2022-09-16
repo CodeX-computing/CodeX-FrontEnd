@@ -99,7 +99,7 @@ const Header = () => {
           {/*<!-- container -->*/}
           <div className="header_shape hidden lg:block"></div>
           <div className="header_image flex items-center">
-            <div className="image 2xl:pl-25">
+            <div className="image 2xl:pl-25 header_img">
               <img src="/images/header-image.svg" alt="Header Image" />
             </div>
           </div>{' '}
