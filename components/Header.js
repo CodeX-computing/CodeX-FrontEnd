@@ -1,35 +1,13 @@
-import React, { useEffect } from 'react';
-
-// type();
+import React from 'react';
+// import Navbar from './Navbar';
 
 const Header = () => {
-  useEffect(() => {
-    const text = ['Template', 'Personal Website', 'E-commerce website', 'Application', 'Software'];
-    let count = 0;
-    let index = 0;
-    let currentText = '';
-    let letter = '';
-    const type = () => {
-      if (count === text.length) {
-        count = 0;
-      }
-      currentText = text[count];
-      letter = currentText.slice(0, ++index);
-      document.querySelector('#changing-text').textContent = letter;
-      if (letter.length === currentText.length) {
-        count++;
-        index = 0;
-      }
-      setTimeout(type, 200);
-    };
-    type();
-  }, []);
-
   return (
     <>
       {/*<!--====== HEADER PART START ======-->*/}
 
       <section className="header_area">
+        {/* <Navbar /> */}
         {/*<!-- header navbar -->*/}
         <div id="home" className="header_hero bg-gray relative z-10 overflow-hidden lg:flex items-center">
           <div className="hero_shape shape_1">
@@ -76,21 +54,17 @@ const Header = () => {
             <img src="/images/shape/shape-2.svg" alt="shape" />
           </div>
           {/*<!-- hero shape -->*/}
-          <div className="container header_cont">
+          <div className="container">
             <div className="row">
               <div className="w-full lg:w-1/2">
                 <div className="header_hero_content pt-150 lg:pt-0">
-                  <h2 className="hero_title text-2xl sm:text-4xl lg:text-4xl xl:text-5xl font-extrabold">
-                    Let's Build your <br />
-                    <span id="changing-text" className="text-theme-color"></span>
+                  <h2 className="hero_title text-2xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold">
+                    Creative Multipurpose Tailwind CSS <span className="text-theme-color">Template</span>
                   </h2>
-                  <p className="mt-8 lg:mr-8">
-                    At CodeX Computing we provide end-to-end software solutions, That are designed to help our clients succeed in their respective markets.
-                    <br /> CodeX Computing has a team of professionals with years of experience in the field, who work together to provide a wide range of services, from Front end development to Full stack apps.
-                  </p>
+                  <p className="mt-8 lg:mr-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
                   <div className="hero_btn mt-10">
-                    <a className="main-btn" href="mailto:contact@codexcomputing.tk">
-                      Let's talk
+                    <a className="main-btn" href="#0">
+                      Get Started
                     </a>
                   </div>
                 </div>{' '}
@@ -102,7 +76,7 @@ const Header = () => {
           {/*<!-- container -->*/}
           <div className="header_shape hidden lg:block"></div>
           <div className="header_image flex items-center">
-            <div className="image 2xl:pl-25 header_img">
+            <div className="image 2xl:pl-25">
               <img src="/images/header-image.svg" alt="Header Image" />
             </div>
           </div>{' '}
