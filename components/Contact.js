@@ -13,7 +13,7 @@ const Contact = () => {
     <section id="contact" className="contact_area relative pt-18 pb-120">
       <div className="contact_image flex items-center justify-end">
         <div className="image lg:pr-13">
-          <img src="/images/contact.svg" alt="about" />
+          <img className="w-full" src="/images/contact.svg" alt="about" />
         </div>
       </div>{' '}
       {/*<!-- about image -->*/}
@@ -24,7 +24,7 @@ const Contact = () => {
               <div className="section_title pb-4">
                 <h5 className="sub_title">Contact</h5>
                 <h4 className="main_title">Get In Touch</h4>
-                <p>Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                <p>If you have any questions, an application you are interested in developing, a feature that you need built or a project that needs coding. We’d love to help with it.<br />feel free to contact us</p>
               </div>{' '}
               {/*<!-- section title -->*/}
               <div className="contact_form">
