@@ -57,3 +57,19 @@
   font-size: 40px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: relative;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .navbar_items {
+    flex-direction: column;
+  }
+
+  .navbar_link {
+    font-size: 30px;
+  }
+}
